@@ -1,0 +1,104 @@
+@charset "utf-8";
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prompt-regular {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+ background-color: rgb(169, 151, 231);
+color: darkviolet;
+}
+
+.header{
+  background-color: rgb(105, 82, 207);
+  text-align: center;
+}
+
+
+
+.img-head{
+width: 1200px; /* 100% or 1000px */
+
+}
+
+.navigator{
+ background-color: rgb(153, 147, 236);
+}
+.menubar{
+    background-color: chartreuse;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+
+
+
+.content{
+	width: 980px;
+	clear: both;
+	margin: 10px auto;
+	margin-bottom: 20px;
+  background-color: #4088b8;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid #999;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* Images */
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+  
+}
+
+/* Footer */
+.footer{
+	background-color: #FF9900;
+	clear: both;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 18px;
+	color: #FFF;
+}
